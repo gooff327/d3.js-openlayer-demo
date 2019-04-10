@@ -1,0 +1,23 @@
+{
+  "name": "d3-ol-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "webpack-dev-server"
+  },
+  "author": "gooff",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.1.8",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "openlayers": "3.20.1",
+    "html-webpack-plugin": "3.2.0",
+    "d3": "5.9.1"
+  }
+}
